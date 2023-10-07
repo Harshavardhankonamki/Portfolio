@@ -1,5 +1,3 @@
-<!-- @format -->
-
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -11,13 +9,14 @@
 		<script
 			src="https://kit.fontawesome.com/c08dd9d55a.js"
 			crossorigin="anonymous"></script>
+			<script src="index.js"></script>
 	</head>
 
 	<body>
 		<div class="main">
 			<div class="mainhome">
 				<nav id="home">
-					
+					<div class="logo">Web Developer</div>
 
 					<ul>
 						<li><a href="#home">Home</a></li>
@@ -27,41 +26,52 @@
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</nav>
+			
+		
 				<div class="content">
 					<div class="textarea">
 						<div class="intro">
-							<h2>HELLO</h2>
-							<h3>
-								Welcome to my Web Development Portfolio! As a passionate and
-								driven student, I have embarked on a journey to explore the
-								dynamic world of web development. Here, you will find a curated
-								collection of my projects and creations, showcasing my evolving
-								skills and creativity in the field.
-							</h3>
-							<button>Hire me</button>
+							<h1>Welcome to My Portfolio</h1>
+							<h2 class="name">Harsha Vardhan Konamki</h2>
+							<h3 class="subtitle" id="subtitle">Frontend Developer</h3>
+							<p>
+								I'm passionate about creating elegant web solutions that deliver a seamless
+								user experience. With expertise in HTML, CSS, and JavaScript, I turn ideas
+								into visually stunning and interactive websites.
+							</p>
+							<p>
+								Let's work together to bring your digital projects to life.
+							</p>
+							<br><div>
+								<a href="res.pdf" target="_blank"></a>
+								<button class="button"  >Hire me</button>
+							</div>
+							
+
 						</div>
 					</div>
-					<div class="image"><img src="mainimg.png" alt="hero" /></div>
+					<div class="image"><img src="mainimg.png" alt="hero"></div>
 				</div>
-			</div>
+			</section>
 		</div>
+		
 		<div class="main">
 			<h1 class="upperhead" id="one">-ABOUT-</h1>
 			<div class="content">
-				<div class="image2"><img src="imgabout.jfif" alt="" /></div>
+				<div class="image2"><img src="aboutme.webp" alt="" width="500px" /></div>
 
 				<div class="textarea">
 					<div class="myself">
-						<h2>Hello, I'm 'Harsha Vardhan'</h2>
-						<p>
+						<h2 >Hello, I'm 'Harsha Vardhan'</h2>
+						<div class="p">
 							I'm a 3rd-year student at SRM University, proficient in C++, C,
 							Python, and web development. With a strong foundation in
 							problem-solving and leadership, I've successfully completed
 							multiple projects. I'm eager to apply my skills and knowledge in
 							an internship, ready to contribute to a dynamic team and make a
 							meaningful impact.
-						</p>
-						<button>Read More</button>
+						</div>
+						
 					</div>
 				</div>
 			</div>
@@ -83,15 +93,14 @@
 							<h4 style="font-size: 24px">Google Clone</h4>
 							<p style="font-size: 18px">
 								Developed a user-friendly interface for a Google project using
-								HTML and CSS. Implemented arts in it.
+								HTML,CSS and JavaScript. Implemented API's in it.
 							</p>
 						</div>
 						<div class="myproject">
-							<h4 style="font-size: 24px">Portfolio</h4>
+							<h4 style="font-size: 24px">Netflix Clone</h4>
 							<p style="font-size: 18px">
-								Portfolio Website - Developed a personal portfolio website to
-								showcase my skills, projects, and achievements using HTML, CSS,
-								and JavaScript.
+								Developed a user-friendly interface for a Netflix project using
+								HTML,CSS and JavaScript. Implemented API's in it.
 							</p>
 						</div>
 						<div class="myproject">
@@ -104,7 +113,7 @@
 					</div>
 
 					<div class="image3">
-						<img src="projectimg.jfif" alt="" />
+						<img src="projectimg.jfif " width="400px" alt="" />
 					</div>
 				</div>
 			</div>
@@ -143,15 +152,7 @@
 					<h3>Web Development</h3>
 					<p>Experience in HTML, CSS, and JavaScript for web development.</p>
 				</div>
-				<div class="blog">
-					<img src="blog4.jfif" alt="" class="blogimg" width="50" height="50" />
-					<hr />
-					<h3>Problem Solving & Leadership</h3>
-					<p>
-						Proven problem-solving and leadership abilities in coordinating
-						teams and achieving project success.
-					</p>
-				</div>
+				
 			</div>
 		</div>
 
@@ -164,14 +165,14 @@
 						action="mailto:kh0805@srmist.edu.in"
 						method="post"
 						enctype="text/plain">
-						<label for="name">Name:</label>
-						<input type="text" id="name" name="name" required />
+						<label for="name" >Name: </label>
+						<input type="text" id="name" name="name" required placeholder="Harsha Vardhan" />
 
 						<label for="email">Email:</label>
-						<input type="email" id="email" name="email" required />
+						<input type="email" id="email" name="email" required   placeholder ="harshavardhankonamki@gmail.com" />
 
 						<label for="message">Message:</label>
-						<textarea id="message" name="message" rows="4" required></textarea>
+						<textarea id="message" name="message" rows="4" required placeholder="Type Your Message Here!!"></textarea>
 
 						<input type="submit" value="Send" />
 					</form>
